@@ -34,6 +34,9 @@ body {
   margin: 0 auto;
   padding-bottom: 30px;
   padding-top: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .search-box {
@@ -255,6 +258,7 @@ nav li a {
   padding: 10px;
   width: 150px;
   text-align: center;
+  border: 3px solid #fdfbf3;
 }
 .electronics-card:hover {
   border: 3px solid #e9e8e3;
