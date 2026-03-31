@@ -457,6 +457,7 @@ footer {
   margin: 0 auto;
   background-color: #ffffff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -484,4 +485,15 @@ footer {
 .email a {
   text-decoration: none;
   color: inherit;
+}
+
+/* footer-row */
+
+.footer-row {
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f1f2f4;
 }
