@@ -27,6 +27,12 @@ body {
 .top-banner-c3 a {
   text-decoration: none;
 }
+.top-bar-container {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -34,9 +40,6 @@ body {
   margin: 0 auto;
   padding-bottom: 30px;
   padding-top: 10px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 .search-box {
@@ -379,6 +382,71 @@ nav li a {
   padding: 15px;
 }
 
+/* electronics-slider-r  */
+
+.electronics-slider-r {
+  background-color: #fdfbf3;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.electronics-slider-child-1-r {
+  display: flex;
+  justify-content: space-between;
+}
+
+.electronics-slider-child-1-r a {
+  padding: 10px;
+  border: 2px solid #0397d3;
+  color: #0397d3;
+  text-decoration: none;
+}
+
+.electronics-slider-child-1-r a:hover {
+  color: white;
+  background-color: #0397d3;
+}
+
+.electronics-card-container-r {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.electronics-card-r {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.electronics-card-r-img img {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+/* Features Section */
+
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 50px 0px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.feature-card {
+  display: flex;
+}
+
+.feature-card img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* footer section */
+
 footer {
   background-color: #ffffff;
 }
@@ -400,4 +468,20 @@ footer {
 
 .title-f {
   font-weight: bold;
+}
+
+.feature-card-f {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.feature-card-f img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.email a {
+  text-decoration: none;
+  color: inherit;
 }
